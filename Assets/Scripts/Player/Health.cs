@@ -59,26 +59,37 @@ public class Health : MonoBehaviour
             //Go to Death Screen
         }
     }
-    public void GiveHealth(float healthToGive)
+    public void GiveHealth(float _health)
     {
         if (currentHealth < maxHealth)
         {
-            currentHealth += healthToGive;
-            Debug.Log("You've been given " + healthToGive + " health!");
-            notificationMessage = "You've been given " + healthToGive + " health!";
+            currentHealth += _health;
+
+            notificationMessage = "You've been given " + _health + " health!";
+            Debug.Log(notificationMessage);
         }
         else if (currentHealth >= maxHealth)
         {
-            Debug.Log("You're already at max health!");
             notificationMessage = "You're already at max health!";
+            Debug.Log(notificationMessage);
         }
     }
-    public void GiveArmour()
+    public void GiveArmour(float _armour)
     {
-        
+        if(currentArmour < maxArmour)
+        {
+            currentArmour += _armour;
+            notificationMessage = "You've been given " + _armour + " armour!";
+            Debug.Log(notificationMessage);
+        }
+        else if(currentArmour >= maxArmour)
+        {
+            notificationMessage = "You're already at the max health!";
+            Debug.Log(notificationMessage);
+        }
     }
-    public void TakeDamage(float healthToTake, float armourAmount = default(float)) //Armour percentage is used for if you have Armour you can add it 
+    public void TakeDamage(float _health, float _armour = default(float)) //Armour percentage is used for if you have Armour you can add it 
     {
-        currentHealth -= healthToTake * (armourAmount / 100);
+        currentHealth -= _health * (_armour / 100);
     }
 }
