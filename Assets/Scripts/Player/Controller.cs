@@ -56,9 +56,9 @@ public class Controller : MonoBehaviour
             rigid.velocity = new Vector3(-maxSpeed, rigid.velocity.y, rigid.velocity.z);
 
         if (horizontal == 0)
-            rigid.velocity = new Vector3(0, rigid.velocity.y, rigid.velocity.z);
+            rigid.velocity = new Vector3(Mathf.Lerp(rigid.velocity.x, 0, 0.5f), rigid.velocity.y, rigid.velocity.z);
         if (vertical == 0)
-            rigid.velocity = new Vector3(rigid.velocity.x, rigid.velocity.y, 0);
+            rigid.velocity = new Vector3(rigid.velocity.x, rigid.velocity.y, Mathf.Lerp(rigid.velocity.z, 0, 0.5f));
 
 
     }
