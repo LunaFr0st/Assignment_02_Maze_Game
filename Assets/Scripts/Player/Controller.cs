@@ -4,63 +4,50 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    public float speed;
-    public float maxSpeed;
-    public float jumpSpeed;
+    public float speed = 6.0F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
+    private Vector3 moveDirection = Vector3.zero;
 
-    public float horizontal;
-    public float vertical;
+    float _vert = 0, _hori = 0;
 
     Rigidbody rigid;
+    CharacterController controller;
 
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
     }
-
     void Update()
     {
-        UserInput(horizontal, vertical);
-        CalculateVelocity();
-    }
-
-    public void UserInput(float _horizontal, float _vertical)
-    {
-        _horizontal = Input.GetAxisRaw("Horizontal");
-        _vertical = Input.GetAxisRaw("Vertical");
-
-        horizontal = _horizontal;
-        vertical = _vertical;
+        MouseLook();
         Move();
     }
 
     void Move()
     {
-        if (horizontal != 0)
-            rigid.AddForce(Vector3.right * horizontal * speed * Time.deltaTime, ForceMode.Impulse);
-        if (vertical != 0)
-            rigid.AddForce(Vector3.forward * vertical * speed * Time.deltaTime, ForceMode.Impulse);
+        if (controller.isGrounded)
+        {
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            moveDirection = transform.TransformDirection(moveDirection);
+            moveDirection *= speed;
+            if (Input.GetButton("Jump"))
+                moveDirection.y = jumpSpeed;
+        }
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
     }
-    void CalculateVelocity()
+    
+    void MouseLook()
     {
-        if (rigid.velocity.z >= maxSpeed)
-            rigid.velocity = new Vector3(rigid.velocity.x, rigid.velocity.y, maxSpeed);
+        
+        _vert += Input.GetAxis("Mouse Y");
+        _hori += Input.GetAxis("Mouse X");
 
-        else if (rigid.velocity.z <= -maxSpeed)
-            rigid.velocity = new Vector3(rigid.velocity.x, rigid.velocity.y, -maxSpeed);
+        _vert = Mathf.Clamp(_vert, -25, 25);
 
-        if (rigid.velocity.x >= maxSpeed)
-            rigid.velocity = new Vector3(maxSpeed, rigid.velocity.y, rigid.velocity.z);
-
-        else if (rigid.velocity.x <= -maxSpeed)
-            rigid.velocity = new Vector3(-maxSpeed, rigid.velocity.y, rigid.velocity.z);
-
-        if (horizontal == 0)
-            rigid.velocity = new Vector3(Mathf.Lerp(rigid.velocity.x, 0, 0.5f), rigid.velocity.y, rigid.velocity.z);
-        if (vertical == 0)
-            rigid.velocity = new Vector3(rigid.velocity.x, rigid.velocity.y, Mathf.Lerp(rigid.velocity.z, 0, 0.5f));
-
-
+        transform.rotation = Quaternion.Euler(-_vert, _hori, 0);
     }
 }
 
