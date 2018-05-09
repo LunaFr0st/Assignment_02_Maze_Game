@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/**************************************
+@Author - Cody Amies
+@Author Email - codyamies@gmail.com
+#Script - Health.cs
+#Date - 14/03/2018
+#Last Modified - 28/03/2018
+**************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

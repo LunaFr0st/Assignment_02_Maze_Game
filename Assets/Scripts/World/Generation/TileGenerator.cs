@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/**************************************
+@Author - Cody Amies
+@Author Email - codyamies@gmail.com
+#Script - TileGenerator.cs
+#Date - 28/03/2018
+#Last Modified - 9/05/2018
+**************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,18 +24,32 @@ public class TileGenerator : MonoBehaviour
     Vector3 randomRot;
     GameObject clone;
     Transform mapTransform;
+    GameObject[] mapObject;
 
     void Start()
     {
-        GenerateMap(offset, mapSize);
         mapTransform = GameObject.Find("Map").transform;
+        GenerateMap(offset, mapSize);
     }
     void Update()
     {
+        
+
+
     }
     public void DeleteMap()
     {
-
+        mapObject = GameObject.FindObjectsOfType(typeof(GameObject)) as GameObject[];
+        foreach (GameObject item in mapObject)
+        {
+            if (item.name.Contains("Clone"))
+            {
+                Debug.Log(item.name);
+                Destroy(item);
+            }
+            else
+                continue;
+        }
     }
 
     public void GenerateMap(float _offset, int _mapSize)
@@ -61,11 +82,6 @@ public class TileGenerator : MonoBehaviour
                     clone = Instantiate(tiles[1], tilePosition, Quaternion.Euler(new Vector3(0, 0, 0)), mapTransform);
                 else if ((x >= 1 && x < _mapSize) && z == _mapSize) // Top Wall
                     clone = Instantiate(tiles[1], tilePosition, Quaternion.Euler(new Vector3(0, -90, 0)), mapTransform);
-
-                //if ((x == randX && z == randZ) || (x == randX + 1 && z == randZ + 1) || (x == randX + 1 && z == randZ) || (x == randX && z == randZ + 1))
-                //{
-                //    clone = Instantiate(tiles[4], tilePosition, Quaternion.Euler(new Vector3(0, 0, 0)), mapTransform);
-                //}
 
                 if ((x >= randX && x <= randX + finishSize) && (z >= randZ && z <= randZ + finishSize))
                 {
