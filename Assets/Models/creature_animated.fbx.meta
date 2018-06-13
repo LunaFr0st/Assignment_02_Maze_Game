@@ -1,0 +1,1702 @@
+fileFormatVersion: 2
+guid: 55521c12f9341e34b86e678d31c1e978
+timeCreated: 1528848705
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anim_chest
+    100002: anim_global01
+    100004: anim_head01
+    100006: anim_L_footBend_ctrl
+    100008: anim_L_footRoll_ctrl
+    100010: anim_L_heelRoll_ctrl
+    100012: anim_L_toeRoll_ctrl
+    100014: anim_pelvis
+    100016: anim_R_footBend_ctrl
+    100018: anim_R_footRoll_ctrl
+    100020: anim_R_heelRoll_ctrl
+    100022: anim_R_toeRoll_ctrl
+    100024: anim_stomach
+    100026: anim_waist
+    100028: anime_COG01
+    100030: anime_neck01
+    100032: body
+    100034: chest_jnt
+    100036: controles
+    100038: //RootNode
+    100040: finger
+    100042: groupDrv_L_footBend01
+    100044: groupDrv_L_footRoll01
+    100046: groupDrv_L_heelRoll01
+    100048: groupDrv_L_toeRoll01
+    100050: groupDrv_R_footBend01
+    100052: groupDrv_R_footRoll01
+    100054: groupDrv_R_heelRoll01
+    100056: groupDrv_R_toeRoll01
+    100058: hair
+    100060: head_horn_END
+    100062: head_jnt
+    100064: L_ankle_jnt
+    100066: L_arm_ctrl
+    100068: L_arm_loc
+    100070: L_finger01_jnt
+    100072: L_finger01_jnt1
+    100074: L_finger01_jnt2
+    100076: L_finger01_jnt3
+    100078: L_finger01_jnt4
+    100080: L_finger02_jnt
+    100082: L_finger02_jnt 1
+    100084: L_finger02_jnt 2
+    100086: L_finger02_jnt 3
+    100088: L_finger_jnt_END
+    100090: L_finger_jnt_END 1
+    100092: L_finger_jnt_END 2
+    100094: L_finger_jnt_END 3
+    100096: L_finger_jnt_END 4
+    100098: L_foot_ctrl
+    100100: L_foot_jnt
+    100102: L_foot_locator
+    100104: L_forarm_jnt
+    100106: L_shin_jnt
+    100108: L_shoulder_jnt
+    100110: L_thingh_jnt
+    100112: L_toe_jnt01
+    100114: L_toenail_01
+    100116: L_toenail_01_END
+    100118: L_toenail_02
+    100120: L_toenail_02_END
+    100122: L_toenail_03
+    100124: L_toenail_03_END
+    100126: L_toenail_04
+    100128: L_toenail_04_END
+    100130: L_wrist_jnt
+    100132: locator2
+    100134: locator5
+    100136: locDrv_chest01
+    100138: locDrv_head01
+    100140: locDrv_neck01
+    100142: locDrv_pelvis01
+    100144: locDrv_root01
+    100146: locDrv_spine01
+    100148: locDrv_spine02
+    100150: model01
+    100152: neck_jnt
+    100154: pelvis01
+    100156: pelvis01_END
+    100158: R_ankle_jnt
+    100160: R_arm_ctrl
+    100162: R_arm_loc
+    100164: R_finger01_jnt
+    100166: R_finger01_jnt1
+    100168: R_finger01_jnt2
+    100170: R_finger01_jnt3
+    100172: R_finger01_jnt4
+    100174: R_finger02_jnt
+    100176: R_finger02_jnt 1
+    100178: R_finger02_jnt 2
+    100180: R_finger02_jnt 3
+    100182: R_finger_jnt_END
+    100184: R_finger_jnt_END 1
+    100186: R_finger_jnt_END 2
+    100188: R_finger_jnt_END 3
+    100190: R_finger_jnt_END 4
+    100192: R_foot_ctrl
+    100194: R_foot_jnt
+    100196: R_foot_locator
+    100198: R_forarm_jnt
+    100200: R_shin_jnt
+    100202: R_shoulder_jnt
+    100204: R_thingh_jnt
+    100206: R_toe_jnt01
+    100208: R_toenail_01
+    100210: R_toenail_01_END
+    100212: R_toenail_02
+    100214: R_toenail_02_END
+    100216: R_toenail_03
+    100218: R_toenail_03_END
+    100220: R_toenail_04
+    100222: R_toenail_04_END
+    100224: R_wrist_jnt
+    100226: root_jnt
+    100228: skeleton01
+    100230: spine_jnt
+    100232: waist_jnt
+    400000: anim_chest
+    400002: anim_global01
+    400004: anim_head01
+    400006: anim_L_footBend_ctrl
+    400008: anim_L_footRoll_ctrl
+    400010: anim_L_heelRoll_ctrl
+    400012: anim_L_toeRoll_ctrl
+    400014: anim_pelvis
+    400016: anim_R_footBend_ctrl
+    400018: anim_R_footRoll_ctrl
+    400020: anim_R_heelRoll_ctrl
+    400022: anim_R_toeRoll_ctrl
+    400024: anim_stomach
+    400026: anim_waist
+    400028: anime_COG01
+    400030: anime_neck01
+    400032: body
+    400034: chest_jnt
+    400036: controles
+    400038: //RootNode
+    400040: finger
+    400042: groupDrv_L_footBend01
+    400044: groupDrv_L_footRoll01
+    400046: groupDrv_L_heelRoll01
+    400048: groupDrv_L_toeRoll01
+    400050: groupDrv_R_footBend01
+    400052: groupDrv_R_footRoll01
+    400054: groupDrv_R_heelRoll01
+    400056: groupDrv_R_toeRoll01
+    400058: hair
+    400060: head_horn_END
+    400062: head_jnt
+    400064: L_ankle_jnt
+    400066: L_arm_ctrl
+    400068: L_arm_loc
+    400070: L_finger01_jnt
+    400072: L_finger01_jnt1
+    400074: L_finger01_jnt2
+    400076: L_finger01_jnt3
+    400078: L_finger01_jnt4
+    400080: L_finger02_jnt
+    400082: L_finger02_jnt 1
+    400084: L_finger02_jnt 2
+    400086: L_finger02_jnt 3
+    400088: L_finger_jnt_END
+    400090: L_finger_jnt_END 1
+    400092: L_finger_jnt_END 2
+    400094: L_finger_jnt_END 3
+    400096: L_finger_jnt_END 4
+    400098: L_foot_ctrl
+    400100: L_foot_jnt
+    400102: L_foot_locator
+    400104: L_forarm_jnt
+    400106: L_shin_jnt
+    400108: L_shoulder_jnt
+    400110: L_thingh_jnt
+    400112: L_toe_jnt01
+    400114: L_toenail_01
+    400116: L_toenail_01_END
+    400118: L_toenail_02
+    400120: L_toenail_02_END
+    400122: L_toenail_03
+    400124: L_toenail_03_END
+    400126: L_toenail_04
+    400128: L_toenail_04_END
+    400130: L_wrist_jnt
+    400132: locator2
+    400134: locator5
+    400136: locDrv_chest01
+    400138: locDrv_head01
+    400140: locDrv_neck01
+    400142: locDrv_pelvis01
+    400144: locDrv_root01
+    400146: locDrv_spine01
+    400148: locDrv_spine02
+    400150: model01
+    400152: neck_jnt
+    400154: pelvis01
+    400156: pelvis01_END
+    400158: R_ankle_jnt
+    400160: R_arm_ctrl
+    400162: R_arm_loc
+    400164: R_finger01_jnt
+    400166: R_finger01_jnt1
+    400168: R_finger01_jnt2
+    400170: R_finger01_jnt3
+    400172: R_finger01_jnt4
+    400174: R_finger02_jnt
+    400176: R_finger02_jnt 1
+    400178: R_finger02_jnt 2
+    400180: R_finger02_jnt 3
+    400182: R_finger_jnt_END
+    400184: R_finger_jnt_END 1
+    400186: R_finger_jnt_END 2
+    400188: R_finger_jnt_END 3
+    400190: R_finger_jnt_END 4
+    400192: R_foot_ctrl
+    400194: R_foot_jnt
+    400196: R_foot_locator
+    400198: R_forarm_jnt
+    400200: R_shin_jnt
+    400202: R_shoulder_jnt
+    400204: R_thingh_jnt
+    400206: R_toe_jnt01
+    400208: R_toenail_01
+    400210: R_toenail_01_END
+    400212: R_toenail_02
+    400214: R_toenail_02_END
+    400216: R_toenail_03
+    400218: R_toenail_03_END
+    400220: R_toenail_04
+    400222: R_toenail_04_END
+    400224: R_wrist_jnt
+    400226: root_jnt
+    400228: skeleton01
+    400230: spine_jnt
+    400232: waist_jnt
+    2300000: hair
+    3300000: hair
+    4300000: body
+    4300002: finger
+    4300004: hair
+    7400000: Running
+    7400002: Idle
+    7400004: Attack
+    7400006: Hit
+    7400008: Death
+    9500000: //RootNode
+    13700000: body
+    13700002: finger
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/controles
+        weight: 1
+      - path: anim_global01/controles/anime_COG01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis/locDrv_pelvis01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/hair
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/locDrv_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/locDrv_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl/L_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/locDrv_chest01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl/R_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/locDrv_spine02
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/locDrv_spine01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/locDrv_root01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01/anim_L_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01/anim_L_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator/locator2
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01/anim_R_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01/anim_R_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator/locator5
+        weight: 1
+      - path: anim_global01/skeleton01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01/L_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02/L_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03/L_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04/L_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/pelvis01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01/R_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02/R_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03/R_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04/R_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt/L_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1/L_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1/L_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2/L_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3/L_finger_jnt_END 4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt/head_horn_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt/R_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1/R_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1/R_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2/R_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3/R_finger_jnt_END 4
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/body
+        weight: 1
+      - path: model01/finger
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/controles
+        weight: 1
+      - path: anim_global01/controles/anime_COG01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis/locDrv_pelvis01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/hair
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/locDrv_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/locDrv_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl/L_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/locDrv_chest01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl/R_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/locDrv_spine02
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/locDrv_spine01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/locDrv_root01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01/anim_L_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01/anim_L_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator/locator2
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01/anim_R_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01/anim_R_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator/locator5
+        weight: 1
+      - path: anim_global01/skeleton01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01/L_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02/L_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03/L_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04/L_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/pelvis01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01/R_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02/R_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03/R_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04/R_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt/L_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1/L_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1/L_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2/L_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3/L_finger_jnt_END 4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt/head_horn_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt/R_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1/R_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1/R_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2/R_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3/R_finger_jnt_END 4
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/body
+        weight: 1
+      - path: model01/finger
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/controles
+        weight: 1
+      - path: anim_global01/controles/anime_COG01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis/locDrv_pelvis01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/hair
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/locDrv_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/locDrv_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl/L_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/locDrv_chest01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl/R_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/locDrv_spine02
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/locDrv_spine01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/locDrv_root01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01/anim_L_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01/anim_L_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator/locator2
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01/anim_R_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01/anim_R_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator/locator5
+        weight: 1
+      - path: anim_global01/skeleton01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01/L_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02/L_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03/L_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04/L_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/pelvis01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01/R_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02/R_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03/R_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04/R_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt/L_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1/L_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1/L_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2/L_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3/L_finger_jnt_END 4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt/head_horn_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt/R_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1/R_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1/R_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2/R_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3/R_finger_jnt_END 4
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/body
+        weight: 1
+      - path: model01/finger
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 301
+      lastFrame: 322
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/controles
+        weight: 1
+      - path: anim_global01/controles/anime_COG01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis/locDrv_pelvis01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/hair
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/locDrv_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/locDrv_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl/L_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/locDrv_chest01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl/R_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/locDrv_spine02
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/locDrv_spine01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/locDrv_root01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01/anim_L_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01/anim_L_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator/locator2
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01/anim_R_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01/anim_R_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator/locator5
+        weight: 1
+      - path: anim_global01/skeleton01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01/L_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02/L_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03/L_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04/L_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/pelvis01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01/R_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02/R_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03/R_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04/R_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt/L_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1/L_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1/L_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2/L_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3/L_finger_jnt_END 4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt/head_horn_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt/R_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1/R_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1/R_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2/R_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3/R_finger_jnt_END 4
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/body
+        weight: 1
+      - path: model01/finger
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 322
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/controles
+        weight: 1
+      - path: anim_global01/controles/anime_COG01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_pelvis/locDrv_pelvis01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/hair
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/anim_head01/locDrv_head01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/anime_neck01/locDrv_neck01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/L_arm_ctrl/L_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/locDrv_chest01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/anim_chest/R_arm_ctrl/R_arm_loc
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/anim_stomach/locDrv_spine02
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/anim_waist/locDrv_spine01
+        weight: 1
+      - path: anim_global01/controles/anime_COG01/locDrv_root01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footBend01/anim_L_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/groupDrv_L_heelRoll01/anim_L_heelRoll_ctrl/groupDrv_L_toeRoll01/anim_L_toeRoll_ctrl/groupDrv_L_footRoll01/anim_L_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator
+        weight: 1
+      - path: anim_global01/controles/L_foot_ctrl/L_foot_locator/locator2
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footBend01/anim_R_footBend_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/groupDrv_R_heelRoll01/anim_R_heelRoll_ctrl/groupDrv_R_toeRoll01/anim_R_toeRoll_ctrl/groupDrv_R_footRoll01/anim_R_footRoll_ctrl
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator
+        weight: 1
+      - path: anim_global01/controles/R_foot_ctrl/R_foot_locator/locator5
+        weight: 1
+      - path: anim_global01/skeleton01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_01/L_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_02/L_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_03/L_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/L_thingh_jnt/L_shin_jnt/L_ankle_jnt/L_foot_jnt/L_toe_jnt01/L_toenail_04/L_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/pelvis01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_01/R_toenail_01_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_02/R_toenail_02_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_03/R_toenail_03_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/pelvis01/R_thingh_jnt/R_shin_jnt/R_ankle_jnt/R_foot_jnt/R_toe_jnt01/R_toenail_04/R_toenail_04_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt/L_finger02_jnt/L_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt1/L_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt2/L_finger02_jnt
+          1/L_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt3/L_finger02_jnt
+          2/L_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/L_shoulder_jnt/L_forarm_jnt/L_wrist_jnt/L_finger01_jnt4/L_finger02_jnt
+          3/L_finger_jnt_END 4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/neck_jnt/head_jnt/head_horn_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt/R_finger02_jnt/R_finger_jnt_END
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt1/R_finger_jnt_END
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt2/R_finger02_jnt
+          1/R_finger_jnt_END 2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt3/R_finger02_jnt
+          2/R_finger_jnt_END 3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3
+        weight: 1
+      - path: anim_global01/skeleton01/root_jnt/waist_jnt/spine_jnt/chest_jnt/R_shoulder_jnt/R_forarm_jnt/R_wrist_jnt/R_finger01_jnt4/R_finger02_jnt
+          3/R_finger_jnt_END 4
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/body
+        weight: 1
+      - path: model01/finger
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
